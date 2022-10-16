@@ -1,0 +1,40 @@
+body {
+    font-family: 'Nunito Sans' sans-serif;
+    font-size: 16px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+button {
+    cursor: pointer;
+    transition: all .4s;
+}

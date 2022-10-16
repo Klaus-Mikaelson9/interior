@@ -1,0 +1,57 @@
+.header {
+    background: #D3CBC5;
+    max-height: 80px;
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 165px;
+    }
+
+    &__logo-list {
+        display: flex;
+        column-gap: 5px;
+    }
+
+    &__logo-item {
+        display: flex;
+        align-items: center;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 60px;
+        letter-spacing: 0.035em;
+        color: #555555;
+    }
+
+    &__nav {
+
+        &-list {
+            display: flex;
+            justify-content: space-between;
+            width: 525px;
+        }
+
+        &-link {
+            font-family: Nunito Sans;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 60px;
+            color: #1B1A1A;
+
+            &:first-letter {
+                text-transform: uppercase;
+            }
+
+            &:hover {
+                color: rgb(238, 34, 72);
+            }
+        }
+    }
+
+    &__input-list {
+        display: flex;
+        column-gap: 27px;
+    }
+}

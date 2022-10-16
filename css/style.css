@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Nunito Sans" sans-serif;
+  font-size: 16px;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.header {
+  background: #D3CBC5;
+  max-height: 80px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 165px;
+}
+.header__logo-list {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.header__logo-item {
+  display: flex;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 60px;
+  letter-spacing: 0.035em;
+  color: #555555;
+}
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 525px;
+}
+.header__nav-link {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 60px;
+  color: #1B1A1A;
+}
+.header__nav-link:first-letter {
+  text-transform: uppercase;
+}
+.header__nav-link:hover {
+  color: rgb(238, 34, 72);
+}
+.header__input-list {
+  display: flex;
+  -moz-column-gap: 27px;
+       column-gap: 27px;
+}/*# sourceMappingURL=style.css.map */
